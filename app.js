@@ -24,7 +24,7 @@ var getWebshot = function(url, file, cb) {
       // todo: return page title in json response
       //console.log("Page Title: " + document.title);
 
-      return "title: " + document.title;
+      return {title: document.title};
     },
     userAgent: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_2 like Mac OS X; en-us)'
       + ' AppleWebKit/531.21.20 (KHTML, like Gecko) Mobile/7B298g'

@@ -36,6 +36,10 @@ Heroku
 ======
 
 ```bash
+# Create new app with buildpack
+heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi.git
+
+# Or add buildpack to existing app
 heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
 ```
 

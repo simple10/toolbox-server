@@ -57,3 +57,6 @@ On submit of new webpage screenshot request...
 4. push snapshot file to upload queue
 5. pop from upload queue
 6. upload to github, dropbox, aws, etc.
+
+Check out snapshot-as-a-service code to borrow some ideas on making
+the webshot service more robust.

@@ -60,3 +60,8 @@ On submit of new webpage screenshot request...
 
 Check out snapshot-as-a-service code to borrow some ideas on making
 the webshot service more robust.
+
+
+Use perceptualdiff to compare screenshots and only save a new one if it is substantially
+different? http://pdiff.sourceforge.net/  Or output the diff image for visualization.
+
